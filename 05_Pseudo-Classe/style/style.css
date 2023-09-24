@@ -1,0 +1,14 @@
+/* pseudo-classe */
+
+/* hover color: #7E3661*/
+a:hover {
+    color: #7E3661;
+  }
+/* visited color : #FCB941 */
+a:visited{
+    color: #FCB941;
+}
+/* active état cliqué taille de 1.5em*/
+a:active {
+    font-size: 1.5em;
+  }

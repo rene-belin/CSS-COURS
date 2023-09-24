@@ -1,0 +1,13 @@
+/* CSS */
+.left{
+    float: left;
+    width: 31.33%;
+    background-color: #00ff00;
+    margin: 1%;
+    height: 500px;
+}
+#suivant{
+    background-color: yellow;
+    /* positionner la dii en dessous des floattants */
+    clear: both;
+}

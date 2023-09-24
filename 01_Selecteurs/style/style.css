@@ -1,0 +1,75 @@
+/* CSS les sélections */
+
+/* selecteur de balise HTML */
+h1 {
+  color: blueviolet;
+}
+/* selecteur class */
+.one {
+  color: rgb(255, 0, 0);
+}
+/* selecteur id */
+#two {
+  color: brown;
+}
+/* selecteurs combiner class et id */
+.seleCombinpara2,
+#seleCombinID {
+  color: lightseagreen;
+}
+
+/*selecteur parent > enfant */
+.parent > p {
+  color: crimson;
+}
+/* selecteur combinateurs d'adjacense */
+img + p {
+  border: solid 1px rgb(255, 0, 0);
+}
+
+li:first-of-type + li {
+  color: red;
+}
+/* redimenssionner l'image */
+img {
+  width: 50%;
+  height: auto;
+}
+/* selecteur d'attribut */
+img [title] {
+  color: purple;
+}
+
+/* pseudo-classes le lien change de couleur */
+a:hover {
+  color: red;
+}
+/* une interaction avec un pointeur, au moment entre l'appui sur le pointeur et le relâchement de celui-ci. */
+a:active {
+  color: rgb(255, 238, 0);
+}
+
+.prenom:focus {
+  background: rgb(0, 255, 221);
+  color: red;
+}
+/* pseudo-classe :focus change l'effet du fond de l'input */
+.nom:focus {
+  background: rgb(0, 225, 255);
+  color: rgb(245, 247, 245);
+}
+/* au survol de la souris :hover */
+.survol:hover {
+  background-color: gold;
+}
+
+/* pseudo-classe :link lien non visité couleur par défaut bleu */
+a:link{
+    color: rgb(47, 0, 255);
+}
+/* pseudo-classe :visited lien déjà visité couleur par défaut violet */
+a:visited{
+    color: violet;
+}
+/* ul:not(:link) */
+ul :not(:link)

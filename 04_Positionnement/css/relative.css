@@ -1,0 +1,25 @@
+/* CSS */
+.jauneBlock {
+  background-color: #ffff00;
+}
+.verteBlock {
+  background-color: #00ff00;
+}
+.jauneInline {
+  background-color: #ffff00;
+}
+.verteInline {
+  background-color: #00ff00;
+}
+/* position relative qui permet de décaler horizontaelement et/ou verticalement*/
+.relativeJaune {
+  position: relative;
+  bottom: 5px;
+  background-color: #ffff00;
+}
+.relativeChevauch {
+  position: relative;
+  border: 5px;
+  left: 2%;
+  background-color: #ffff00;
+}

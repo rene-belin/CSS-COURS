@@ -1,0 +1,20 @@
+/* propriété des polices de caractères */
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.pFont{
+    font: 14pt semi-bold italic small-caps 
+Verdana, sans-serif;
+}
+
+.hautLine{
+    line-height: 2em;
+}
+
+p{
+    text-align: center;
+}

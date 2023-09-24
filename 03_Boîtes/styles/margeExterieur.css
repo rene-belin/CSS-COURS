@@ -1,0 +1,14 @@
+
+/* tous les paragraphes */
+p{
+    /* largeur de 100px */
+    width: 100px;
+    /* hauteur auto en fonction du contenu */
+    height: auto;
+    /* distance entre le contenu et la bordure est de 20px G/D et 10px H/B */
+    padding: 10px 20px 10px 20px;
+    /* bordure noire de 5px */
+    border: 5px solid black;
+    /* distance mini entre un paragraphe */
+    margin: 20px 0 20px 0;
+}

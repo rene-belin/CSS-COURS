@@ -1,0 +1,28 @@
+/* CSS */
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  border: none;
+}
+
+tableStyle {
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+thead tr {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: #eaeaea;
+}
+
+.gras {
+  font-weight: bold;
+}

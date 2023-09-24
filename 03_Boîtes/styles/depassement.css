@@ -1,0 +1,39 @@
+
+/* Pour tous les paragraphes */
+.para1, .para2{
+    /* largeur de 100px */
+    width: 150px;
+    /* la hauteur est définie automatiquement */
+    height: auto;
+    /* la distance entre le contenu et la bordure est de 20px à droite et à gauche et 10px haut et bas */
+    padding: 10px 20px 10px 20px;
+    /* bordure de 2px de couleur noir */
+    border: 2px solid black;
+}
+/* auto, le contenu est rogné et possèce des ascenseurs */
+.auto{
+    width: 150px;
+    height: 80px;
+    padding: 10px 20px 10px 20px;
+    /* bordure de 2px de couleur noir */
+    border: 2px solid black;
+    overflow: auto;
+}
+/* la partie qui dépasse est rognée et n'est pas affiché */
+.hidden{
+    width: 150px;
+    height: 80px;
+    padding: 10px 20px 10px 20px;
+    /* bordure de 2px de couleur noir */
+    border: 2px solid black;
+    overflow: hidden;
+}
+/* la partie qui dépasse est affiché */
+.visible{
+    width: 150px;
+    height: 80px;
+    padding: 10px 20px 10px 20px;
+    /* bordure de 2px de couleur noir */
+    border: 2px solid black;
+    overflow: visible;
+}

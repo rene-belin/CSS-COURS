@@ -1,0 +1,25 @@
+/* CSS */
+
+/* MENU CONTENT */
+.content {
+  float: left;
+  width: 70%;
+  background-color: bisque;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* MENU DROITE */
+.menu {
+  margin-left: 80%;
+  border: 1px solid #000;
+  /* marge interieur */
+  padding: 1em;
+  background-color: lightgreen;
+}
+
+ul {
+  display: block;
+}
+ul li {
+  list-style: none;
+}
